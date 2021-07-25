@@ -1,0 +1,29 @@
+package com.company;
+
+import com.sun.jdi.Value;
+import org.w3c.dom.ls.LSOutput;
+
+import java.security.spec.RSAOtherPrimeInfo;
+import java.util.*;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter the radius for the circle ");
+        double radius =in.nextDouble();
+        final double pi=3.14;
+        System.out.print("The area of the circle of radius "+radius+" is "+(pi*radius*radius));
+
+    }
+
+
+}
+
+
+
+
+
+
+
